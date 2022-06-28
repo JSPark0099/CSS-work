@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+/* layout */
+.l_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.l_grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  row-gap: 20px;
+}
+
+.l_grid-item {
+  width: 33.3333333%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* typography */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+/*components*/
+body {
+  background-color: black;
+}
+.header {
+  background-image: url(images/cover-cut.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header h1.title {
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+}
+
+main.contents {
+  margin: 40px 0;
+}
+
+.item {
+  /* flex-grow: 1; */
+}
+.item img.item-cover {
+  max-width: 100%;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  font: inherit;
+}
+
+mark {
+  background-color: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/**/
+body {
+  background-color: rgb(28, 124, 220);
+}
+
+.wrapper {
+  background-color: dodgerblue;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  width: 30%;
+  margin: 0 auto;
+  color: rgb(207, 231, 255);
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 mark {
+  color: white;
+  font-weight: bolder;
+}
+
+.item {
+  background-color: white;
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 5px blue;
+  /* margin-right: -40px; */
+  /* box-sizing: border-box; */
+}
+
+.item.right {
+  text-align: right;
+  margin-left: auto;
+  margin-top: -70px;
+}
+
+.item.left {
+  margin-top: -70px;
+}
+
+.year {
+  width: auto;
+  padding: 40px;
+  color: rgba(30, 144, 255, 0.5);
+}
+
+.year.last {
+  margin-bottom: -70px;
+}
+
+.year h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.year p {
+  padding-bottom: 40px;
+  line-height: 1.2em;
+  color: black;
+}
+
+.year a {
+  border: 1px solid rgba(30, 144, 255, 0.5);
+  border-radius: 5px;
+  padding: 3px 10px;
+}

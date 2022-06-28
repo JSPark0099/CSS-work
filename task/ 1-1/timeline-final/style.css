@@ -1,0 +1,100 @@
+/* Resets */
+
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Layouts */
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.timeline {
+  margin: 0 -20px;
+  padding-bottom: 200px;
+}
+
+.timeline-item {
+  width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: auto;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  text-align: right;
+}
+
+/* Typography */
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Components */
+.button {
+  display: inline-block;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: rgb(16, 128, 240);
+}
+
+/* Design */
+body {
+  background-color: rgb(0, 106, 255);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.4em;
+  padding: 70px 0;
+}
+
+.title span {
+  display: block;
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.year {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 255, 0.4);
+}
+
+.year h2 {
+  font-family: 'arial', cursive;
+  color: rgb(27, 138, 222);
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.year p {
+  color: #888;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font: inherit;
+}
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/**/
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title { 
+  color: rgb(24, 79, 188);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.header {
+  background-color: rgb(24, 79, 188);
+  position: relative;
+}
+
+.header a.header-logo {
+  display: inline-block;
+  margin: 30px 0;
+  /* margin을 적용시키기 위해 display: inline-block 을 하는 이유가 정확히 이해되지 않습니다.
+  인라인 엘리먼츠와 인라인 블럭의 차이 일까요?; */
+}
+
+.header nav.navbar {
+  background-color: rgb(85, 162, 203);
+  color: white;
+}
+
+.header nav.navbar a.button {
+  display: inline-block;
+  padding: 15px;
+}
+.header nav.navbar a.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.header img.wave {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.main {
+  background-color: lightgray;
+  padding-bottom: 30px;
+}
+
+.main-inside {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.grid-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted gray;
+}
+
+.grid-item:last-child {
+  padding: 0;
+  border-bottom: 0;
+}
+
+.grid-item img {
+  width: 400px;
+}
+
+.grid-item p {
+  color: gray;
+  margin: 20px 0;
+}
+
+.sidebar ul {
+  padding: 0 10px;
+  margin: 10px 0;
+  color: gray;
+  line-height: 1.5;
+  border-left: 3px solid lightgray;
+}
+
+.footer {
+  padding: 30px 0;
+  background-color: rgb(58, 56, 56);
+}
+
+.footer-info {
+  background-image: url(images/footer-logo.png);
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 40px;
+  justify-content: right;
+}
+
+.footer-info h3 {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.list {
+  color: gray;
+  margin: 10px 0;
+}
+
+.btns a {
+  background: url(images/icon-sprite.png) no-repeat 0 0;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.btns a.twitter {
+  background-position: 0 0;
+}
+.btns a.facebook {
+  background-position: -30px 0;
+}
+.btns a.pinterest {
+  background-position: -60px 0;
+}
+
+/*이미지 스프라이트 위치 잡는 팁좀 알려주세욥..! 너무 헤맸음당 ㅠㅠ*/
