@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+h2 {
+  font: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+/**/
+
+.l_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  row-gap: 20px;
+}
+
+.l_col {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.l_col_12_12 {
+  width: 100%;
+}
+.l_col_11_12 {
+  width: 91.66666667%;
+}
+.l_col_10_12 {
+  width: 83.33333333%;
+}
+.l_col_9_12 {
+  width: 75%;
+}
+.l_col_8_12 {
+  width: 66.66666667%;
+}
+.l_col_7_12 {
+  width: 58.33333333%;
+}
+.l_col_6_12 {
+  width: 50%;
+}
+.l_col_5_12 {
+  width: 41.66666667%;
+}
+.l_col_4_12 {
+  width: 33.33333333%;
+}
+.l_col_3_12 {
+  width: 25%;
+}
+.l_col_2_12 {
+  width: 16.66666667%;
+}
+.l_col_1_12 {
+  width: 8.33333333%;
+}
+
+.l_wrapper {
+  width: auto;
+  max-width: 950px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* .l_item {
+  padding: 10px;
+  border-top: 4px solid;
+} */
+
+/**/
+body {
+  background-color: rgb(44, 44, 44);
+}
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(197, 197, 197);
+  font-size: 15px;
+}
+
+.header {
+  background-color: rgb(76, 76, 76);
+}
+
+.header a.header-logo {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.header .header-point {
+  position: absolute;
+  top: 0%;
+  right: -5%;
+  z-index: 1;
+}
+
+.header .navbar {
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.header .navbar a {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 15px;
+}
+
+.header .navbar a:hover {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.contents {
+  padding: 30px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.contents .movie {
+  background-color: black;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.contents .movie .movie-cover {
+  width: 100%;
+}
+
+.contents .movie h2 {
+  border-top: 4px solid;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.contents .movie h2.orange {
+  color: orange;
+}
+.contents .movie h2.tomato {
+  color: tomato;
+}
+.contents .movie h2.purple {
+  color: purple;
+}
+.contents .movie h2.white {
+  color: white;
+}
+.contents .movie h2.blue {
+  color: dodgerblue;
+}
+.contents .movie h2.green {
+  color: lawngreen;
+}
+
+.contents .movie p {
+  padding: 0 10px 50px 10px;
+  font-size: 0.7rem;
+}
+
+.footer {
+  padding: 30px 0;
+  font-size: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .l_col_mobile_6_12 {
+    width: 50%;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .header .header-point {
+    visibility: hidden;
+  }
+}
